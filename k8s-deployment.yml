@@ -17,7 +17,7 @@ spec:
       hostname: hello-world-api
       containers:
       - name: hello-world-api
-        image: zios07/hello-world-api:0.0.1
+        image: diiegg/hello-world-api
         ports:
         - containerPort: 8787
         env:
