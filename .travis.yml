@@ -1,0 +1,5 @@
+language: java
+jdk: oraclejdk8
+install: true # skipping the default Travis install step
+script:
+  - mvn test
