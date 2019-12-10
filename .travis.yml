@@ -1,5 +1,3 @@
 language: java
-jdk: jdk8
-install: true # skipping the default Travis install step
-script:
-  - mvn test
+sudo: false
+script: mvn clean verify
